@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la ejecución de pruebas de software, la documentación de resultados, la gestión de incidentes y la formulación de planes de mejora.',
+        '<b>Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la ejecución de pruebas de <i>software</i>, la documentación de resultados, la gestión de incidentes y la formulación de planes de mejora.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,7 +30,7 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el propósito principal de las pruebas estáticas en un proyecto de software?',
+            '¿Cuál es el propósito principal de las pruebas estáticas en un proyecto de <i>software</i>?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -232,7 +232,7 @@ export default {
         {
           id: 8,
           texto:
-            '¿Qué ventaja ofrecen los frameworks de pruebas unitarias como JUnit, PyTest o Jest?',
+            '¿Qué ventaja ofrecen los <i>frameworks</i> de pruebas unitarias como JUnit, PyTest o Jest?',
           imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
@@ -262,7 +262,7 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Cuándo un caso de prueba se registra como fail?',
+          texto: '¿Cuándo un caso de prueba se registra como <i>fail</i> ?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
@@ -537,7 +537,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Que el software no requiere pruebas.',
+              texto: 'Que el <i>software</i> no requiere pruebas.',
               esCorrecta: false,
             },
             {
@@ -630,7 +630,7 @@ export default {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
       titulo: 'Completar frases',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la ejecución de pruebas de software, la documentación de resultados, la gestión de incidentes y la formulación de planes de mejora.',
+        '<b>Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la ejecución de pruebas de <i>software</i>, la documentación de resultados, la gestión de incidentes y la formulación de planes de mejora.',
       instruccion:
         'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
       imagen: '@/assets/actividad/imagen1.png',

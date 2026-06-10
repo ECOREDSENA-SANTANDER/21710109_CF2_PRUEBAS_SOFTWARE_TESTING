@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Implementación de pruebas y mejora del <i>software<i>',
+    Name: 'Implementación de pruebas y mejora del <i>software</i> ',
     Description:
       'Este componente desarrolla habilidades para ejecutar, documentar y analizar procesos de evaluación técnica en el entorno de desarrollo desde una perspectiva de aseguramiento de calidad. Promueve el pensamiento lógico, la gestión metódica de incidentes y la formulación de planes de mejora alineados con los estándares de la industria tecnológica y las necesidades del usuario final.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          'Implementación de pruebas manuales y unitarias de <i>software<i>',
+          'Implementación de pruebas manuales y unitarias de <i>software</i> ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -161,14 +161,14 @@ export default {
   },
   glosario: [
     {
-      termino: 'Aseguramiento de la calidad (qa, <i>quality assurance</i>)',
+      termino: 'Aseguramiento de la calidad (<i>QA, Quality Assurance</i>)',
       significado:
-        'conjunto de actividades planificadas y sistemáticas implementadas en un sistema de calidad para garantizar que los procesos de desarrollo de <i>software<i> cumplan con los requisitos técnicos y estándares preestablecidos.',
+        'conjunto de actividades planificadas y sistemáticas implementadas en un sistema de calidad para garantizar que los procesos de desarrollo de <i>software</i>  cumplan con los requisitos técnicos y estándares preestablecidos.',
     },
     {
       termino: 'Automatización de pruebas',
       significado:
-        'uso de <i>software<i> especializado y scripts para controlar la ejecución de pruebas y comparar los resultados reales con los esperados, reduciendo la intervención manual repetitiva.',
+        'uso de <i>software</i>  especializado y scripts para controlar la ejecución de pruebas y comparar los resultados reales con los esperados, reduciendo la intervención manual repetitiva.',
     },
     {
       termino: 'Caso de prueba (<i>test case</i>)',
@@ -178,7 +178,7 @@ export default {
     {
       termino: 'Ciclo de vida del defecto',
       significado:
-        'trayectoria de estados por los que atraviesa el reporte de un error de <i>software<i>, generalmente abarcando las fases de descubrimiento, asignación, resolución, verificación y cierre.',
+        'trayectoria de estados por los que atraviesa el reporte de un error de <i>software</i> , generalmente abarcando las fases de descubrimiento, asignación, resolución, verificación y cierre.',
     },
     {
       termino: 'Cobertura de código',
@@ -188,12 +188,12 @@ export default {
     {
       termino: 'Defecto (<i>bug</i>)',
       significado:
-        'imperfección o anomalía en un componente o sistema de <i>software<i> que puede causar que este no desempeñe su función requerida. se materializa cuando el código se ejecuta y produce un fallo.',
+        'imperfección o anomalía en un componente o sistema de <i>software</i>  que puede causar que este no desempeñe su función requerida. se materializa cuando el código se ejecuta y produce un fallo.',
     },
     {
       termino: 'Desarrollo guiado por pruebas (tdd)',
       significado:
-        'práctica de ingeniería de <i>software<i> en la que los desarrolladores escriben las pruebas unitarias automatizadas antes de escribir el código funcional que hará que dichas pruebas pasen.',
+        'práctica de ingeniería de <i>software</i>  en la que los desarrolladores escriben las pruebas unitarias automatizadas antes de escribir el código funcional que hará que dichas pruebas pasen.',
     },
     {
       termino: 'Matriz de trazabilidad',
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'Pruebas de caja blanca (<i>white-box testing</i>)',
       significado:
-        'método de prueba de <i>software<i> que examina las estructuras lógicas internas y el funcionamiento de una aplicación, en contraposición a su funcionalidad observable externamente.',
+        'método de prueba de <i>software</i>  que examina las estructuras lógicas internas y el funcionamiento de una aplicación, en contraposición a su funcionalidad observable externamente.',
     },
     {
       termino: 'Pruebas de caja negra (<i>black-box testing</i>)',
@@ -213,22 +213,22 @@ export default {
     {
       termino: 'Pruebas dinámicas',
       significado:
-        'proceso de evaluación que requiere la compilación y ejecución real del código del <i>software<i> para analizar su comportamiento, uso de memoria y tiempos de respuesta bajo ciertas condiciones.',
+        'proceso de evaluación que requiere la compilación y ejecución real del código del <i>software</i>  para analizar su comportamiento, uso de memoria y tiempos de respuesta bajo ciertas condiciones.',
     },
     {
       termino: 'Pruebas estáticas',
       significado:
-        'técnica de evaluación de artefactos de <i>software<i>, como documentos de requerimientos, modelos de diseño o código fuente, sin ejecutar la aplicación, enfocada en la detección temprana de anomalías.',
+        'técnica de evaluación de artefactos de <i>software</i> , como documentos de requerimientos, modelos de diseño o código fuente, sin ejecutar la aplicación, enfocada en la detección temprana de anomalías.',
     },
     {
       termino: 'Pruebas unitarias',
       significado:
-        'nivel de prueba de <i>software<i> donde componentes individuales, como funciones, métodos o clases, se aíslan y prueban de manera independiente para verificar que su micrológica es correcta.',
+        'nivel de prueba de <i>software</i>  donde componentes individuales, como funciones, métodos o clases, se aíslan y prueban de manera independiente para verificar que su micrológica es correcta.',
     },
     {
       termino: 'Regresión',
       significado:
-        'aparición de un defecto en una parte del <i>software<i> que previamente funcionaba de manera correcta, usualmente causada por una modificación reciente en el código, una actualización o una corrección mal implementada.',
+        'aparición de un defecto en una parte del <i>software</i>  que previamente funcionaba de manera correcta, usualmente causada por una modificación reciente en el código, una actualización o una corrección mal implementada.',
     },
     {
       termino: 'Resultado esperado',
@@ -249,15 +249,15 @@ export default {
   referencias: [
     {
       referencia:
-        'Garousi, V., Giray, G., Tuzun, E., Catal, C., & Felderer, M. (2020). Closing the gap between <i>software<i> engineering education and industrial needs. IEEE <i>Software<i>, 37(2), 68–77.',
+        'Garousi, V., Giray, G., Tuzun, E., Catal, C., & Felderer, M. (2020). <i>Closing the gap between software engineering education and industrial needs. IEEE Software</i>, 37(2), 68–77.',
     },
     {
       referencia:
-        'International Organization for Standardization. (2022). ISO/IEC/IEEE 29119-1:2022 <i>Software<i> and systems engineering — <i>Software<i> testing — Part 1: General concepts. ISO.',
+        '<i>International Organization for Standardization.</i> (2022). ISO/IEC/IEEE 29119-1:2022 <i>Software  and systems engineering</i> — <i>Software testing — Part 1: General concepts</i> ISO.',
     },
     {
       referencia:
-        'International <i>Software<i> Testing Qualifications Board. (2024). Certified tester foundation level syllabus (Version 4.0.1).',
+        '<i>International Software  Testing Qualifications Board</i>. (2024). <i>Certified tester foundation level syllabus</i> (Version 4.0.1).',
     },
     {
       referencia: 'Jest Core Team. (s. f.). Jest.',
@@ -267,15 +267,15 @@ export default {
     },
     {
       referencia:
-        "Pressman, R. S., & Maxim, B. R. (2020). <i>Software<i> engineering: A practitioner's approach (9th ed.). McGraw-Hill Education.",
+        "Pressman, R. S., & Maxim, B. R. (2020). <i>Software  engineering: A practitioner's approach</i> (9th ed.). McGraw-Hill Education.",
     },
     {
       referencia:
-        'Sommerville, I. (2021). Engineering <i>software<i> products: An introduction to modern <i>software<i> engineering. Pearson.',
+        'Sommerville, I. (2021). <i>Engineering software  products: An introduction to modern software engineering</i>. Pearson.',
     },
     {
       referencia:
-        'Vera, M., & Silva, J. (2022). Estrategias pedagógicas para la enseñanza de calidad de <i>software<i> y pruebas automatizadas en entornos virtuales. Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología, 31, 45–56.',
+        'Vera, M., & Silva, J. (2022). Estrategias pedagógicas para la enseñanza de calidad de <i>software</i>  y pruebas automatizadas en entornos virtuales. Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología, 31, 45–56.',
     },
   ],
   creditos: [
@@ -299,12 +299,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Experto temático',
+          nombre: 'Carlos Andrés Bonza Reyes',
+          cargo: 'Experto TIC',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Angélica Varón Quintero',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -314,7 +314,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },

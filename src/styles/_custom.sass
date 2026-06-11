@@ -107,7 +107,7 @@ figcaption
   display: inline-flex
   align-items: center
   background-color: $color-primario
-  border-radius: 30px
+  border-radius: 10px
   padding-right: 16px
   padding-left: 52px
   min-height: 48px
@@ -159,6 +159,45 @@ figcaption
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto
     color: $color-sistema-texto !important
     font-style: normal !important
+.avatar
+  position: absolute
+  bottom: 0
+  right: -6rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 24rem
+  & > *
+    position: relative
+  h5
+    color: $color-sistema-texto
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #D1E0D4
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--bg-first
+  &::before
+    background-color: #EFE5FB
+.crd--bg-second
+  &::before
+    background-color: #FFE8B8 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/

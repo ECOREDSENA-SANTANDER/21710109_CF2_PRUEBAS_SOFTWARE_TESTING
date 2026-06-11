@@ -151,6 +151,14 @@ figcaption
   background-color: #C099EF
 .tarjeta.bg-brown.acordion__activo
   background-color: #F3FDFF
+.tarjeta-numerada.color-adicional-1 .tarjeta-numerada__numero
+    background-color: #C4D9DB
+.tarjeta-numerada.color-adicional-1
+    border-color: #C4D9DB
+
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+    color: $color-sistema-texto !important
+    font-style: normal !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -194,6 +202,8 @@ figcaption
     height: 380px
   &-2
     height: 340px
+  &-3
+    height: 300px
 .wcus
   &-1
     width: 15%
@@ -226,18 +236,23 @@ figcaption
   .pcus
     &-1
       padding: 2.5rem !important;
-  
+  .hcus
+    &-3
+      height: 260px
  
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
+  
   
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
+  .hcus
+    &-3
+      height: auto
   .mb-cus
     margin-bottom: 2em  !important
   .banner-principal .tarjeta

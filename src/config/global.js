@@ -168,7 +168,7 @@ export default {
     {
       termino: 'Automatización de pruebas',
       significado:
-        'uso de <i>software</i>  especializado y scripts para controlar la ejecución de pruebas y comparar los resultados reales con los esperados, reduciendo la intervención manual repetitiva.',
+        'uso de <i>software</i>  especializado y <i>scripts</i> para controlar la ejecución de pruebas y comparar los resultados reales con los esperados, reduciendo la intervención manual repetitiva.',
     },
     {
       termino: 'Caso de prueba (<i>test case</i>)',

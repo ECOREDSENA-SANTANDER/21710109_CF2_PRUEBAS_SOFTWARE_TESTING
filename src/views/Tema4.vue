@@ -12,8 +12,8 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t4/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
-          p.mb-3 La gestión de resultados no finaliza con el registro de hallazgos, incidentes o métricas. Para que el proceso de pruebas aporte valor real al desarrollo de software, la información recopilada debe transformarse en acciones de mejora. Esta fase permite analizar lo ocurrido durante la ejecución, reconocer fallas recurrentes, socializar aprendizajes y formular estrategias que fortalezcan tanto el producto tecnológico como el proceso de trabajo del equipo.
-          p.mb-0 Los planes de mejora permiten pasar de la identificación del problema a la definición de acciones concretas, asignables y medibles. De esta manera, el proceso de testing no se entiende como un obstáculo dentro del desarrollo, sino como una fuente de aprendizaje técnico y organizacional que impulsa la calidad, la eficiencia y la evolución continua del software.
+          p.mb-3 La gestión de resultados no finaliza con el registro de hallazgos, incidentes o métricas. Para que el proceso de pruebas aporte valor real al desarrollo de #[i software], la información recopilada debe transformarse en acciones de mejora. Esta fase permite analizar lo ocurrido durante la ejecución, reconocer fallas recurrentes, socializar aprendizajes y formular estrategias que fortalezcan tanto el producto tecnológico como el proceso de trabajo del equipo.
+          p.mb-0 Los planes de mejora permiten pasar de la identificación del problema a la definición de acciones concretas, asignables y medibles. De esta manera, el proceso de #[i testing] no se entiende como un obstáculo dentro del desarrollo, sino como una fuente de aprendizaje técnico y organizacional que impulsa la calidad, la eficiencia y la evolución continua del #[i software].
       
       
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
@@ -76,7 +76,7 @@
       
       
       img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t4/7.png', alt='')  
-      p.mb-3(data-aos="fade-right") El ciclo de desarrollo y pruebas de software es, por naturaleza, iterativo y empírico. Una vez finalizada la documentación formal de los resultados, el equipo debe llevar a cabo un ejercicio de introspección para evaluar su propio desempeño. Este análisis, a menudo enmarcado en ceremonias ágiles como la retrospectiva, es crucial para cultivar una mentalidad de mejora continua.
+      p.mb-3(data-aos="fade-right") El ciclo de desarrollo y pruebas de #[i software] es, por naturaleza, iterativo y empírico. Una vez finalizada la documentación formal de los resultados, el equipo debe llevar a cabo un ejercicio de introspección para evaluar su propio desempeño. Este análisis, a menudo enmarcado en ceremonias ágiles como la retrospectiva, es crucial para cultivar una mentalidad de mejora continua.
       p.mb-5(data-aos="fade-right") Identificar qué funcionó bien y qué falló en el proceso de evaluación asegura que los errores metodológicos no se repitan en futuras iteraciones o proyectos. Por esta razón, las lecciones aprendidas no deben asumirse como un cierre administrativo, sino como una oportunidad para mejorar la forma en que el equipo diseña, ejecuta, documenta y analiza las pruebas.
       
       
@@ -87,7 +87,7 @@
           .bg-color-1.p-4
             img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t4/9.svg', alt='')
             p.mb-3 El primer paso de la retrospectiva consiste en realizar un análisis de causa raíz sobre las fallas procedimentales. Es fundamental diferenciar esto de los errores del código; aquí se evalúan los errores del equipo humano. Por ejemplo, si se descubre un defecto crítico de caja negra un día antes del lanzamiento oficial, es necesario analizar si el diseño de los casos de prueba comenzó demasiado tarde o si el entorno de pruebas no estaba configurado a tiempo.
-            p.mb-0 Mediante técnicas de análisis como los “5 Porqués” o el Diagrama de Ishikawa, el aprendiz aprende a profundizar más allá de los síntomas superficiales para encontrar el origen de los problemas organizacionales. Por ejemplo, si un equipo detecta reiteradamente que sus casos de prueba están desactualizados frente a la versión final del software, la lección aprendida podría indicar una falla de comunicación entre los analistas de requerimientos y el equipo de aseguramiento de calidad.
+            p.mb-0 Mediante técnicas de análisis como los “5 Porqués” o el Diagrama de Ishikawa, el aprendiz aprende a profundizar más allá de los síntomas superficiales para encontrar el origen de los problemas organizacionales. Por ejemplo, si un equipo detecta reiteradamente que sus casos de prueba están desactualizados frente a la versión final del #[i software], la lección aprendida podría indicar una falla de comunicación entre los analistas de requerimientos y el equipo de aseguramiento de calidad.
       
       p.mb-5(data-aos="fade-right") Identificar estas oportunidades de mejora es un componente central de la madurez profesional y del cumplimiento del resultado de aprendizaje asociado a la formulación de planes de mejora.
 
@@ -131,7 +131,7 @@
         p.mb-0 La socialización puede incluir la creación de guías de buenas prácticas derivadas de los errores cometidos. Si, por ejemplo, el equipo de pruebas descubre que las inyecciones SQL son vulnerabilidades frecuentes en el proyecto actual, la socialización puede consistir en capacitar brevemente a los desarrolladores sobre cómo parametrizar correctamente las consultas a la base de datos en los próximos ciclos de codificación.
       
       
-      p.mb-5(data-aos="fade-right") Este flujo bidireccional de información fortalece la cohesión del equipo y eleva el estándar general de la producción de software.
+      p.mb-5(data-aos="fade-right") Este flujo bidireccional de información fortalece la cohesión del equipo y eleva el estándar general de la producción de #[i software].
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Formas de socializar el conocimiento
@@ -170,13 +170,13 @@
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
           p.mb-3 El punto central de la gestión de resultados es la formulación estructurada de planes de mejora. Todos los registros, métricas e incidentes recopilados previamente deben materializarse en acciones concretas, asignables y medibles que optimicen tanto el producto tecnológico como el proceso de construcción subyacente.
-          p.mb-0 Un plan de mejora es la respuesta proactiva a las debilidades identificadas, asegurando que la calidad del software evolucione positivamente en el tiempo. En la ingeniería de calidad, las soluciones se dividen conceptualmente en dos grandes categorías: acciones correctivas y acciones preventivas.
+          p.mb-0 Un plan de mejora es la respuesta proactiva a las debilidades identificadas, asegurando que la calidad del #[i software] evolucione positivamente en el tiempo. En la ingeniería de calidad, las soluciones se dividen conceptualmente en dos grandes categorías: acciones correctivas y acciones preventivas.
 
 
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-8
           .bg-color-1.py-4.px-5.mb-5
-            p.mb-3 Las acciones correctivas son reactivas; están diseñadas para solucionar un problema existente que ya ha impactado la calidad del software o del proceso. Por ejemplo, si las métricas revelan que los tiempos de ejecución de las pruebas manuales de regresión están retrasando las entregas, una acción correctiva sería reasignar recursos temporales o priorizar solo las pruebas de los módulos críticos.
+            p.mb-3 Las acciones correctivas son reactivas; están diseñadas para solucionar un problema existente que ya ha impactado la calidad del #[i software] o del proceso. Por ejemplo, si las métricas revelan que los tiempos de ejecución de las pruebas manuales de regresión están retrasando las entregas, una acción correctiva sería reasignar recursos temporales o priorizar solo las pruebas de los módulos críticos.
             p.mb-0 Por otro lado, las acciones preventivas son proactivas; buscan eliminar la causa de un problema potencial antes de que ocurra. Siguiendo el mismo ejemplo, la acción preventiva a mediano plazo sería implementar un plan de capacitación en herramientas de automatización de pruebas para el equipo, de modo que en el futuro los ciclos de regresión se ejecuten de forma programática y rápida.
           p.mb-0 La habilidad para formular ambas tipologías de acciones demuestra una comprensión madura de la gestión de calidad, equilibrando la resolución de crisis inmediatas con la planificación estratégica.
         .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -192,7 +192,7 @@
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
             .tarjeta.bg-color-3.p-4(titulo="Acciones correctivas")
-              p.mb-0 Son acciones reactivas orientadas a solucionar un problema existente que ya afectó la calidad del software o del proceso.
+              p.mb-0 Son acciones reactivas orientadas a solucionar un problema existente que ya afectó la calidad del #[i software] o del proceso.
             .tarjeta.bg-color-3.p-4(titulo="Ejemplo correctivo")
               p.mb-0 Si las pruebas manuales de regresión retrasan las entregas, se pueden reasignar recursos temporales o priorizar módulos críticos.
             .tarjeta.bg-color-3.p-4(titulo="Acciones preventivas")
@@ -213,10 +213,10 @@
               p.mb-0 La formulación de un plan de mejora no es un evento aislado, sino parte del ciclo iterativo de Planificar, Hacer, Verificar y Actuar, conocido como Ciclo de Deming o PDCA. Las estrategias de optimización continúan integradas en los planes de mejora deben ser medibles mediante indicadores de seguimiento.
 
           p.mb-3 Al establecer un plan, el profesional define claramente qué se va a hacer, quién es el responsable, qué recursos se requieren, en qué plazo debe completarse y cómo se medirá el éxito de la intervención.
-          p.mb-0 En un contexto práctico de desarrollo web, si la retrospectiva identifica que la interfaz gráfica presenta múltiples defectos de responsividad en dispositivos móviles, detectados mediante pruebas de caja negra, el plan de mejora establecería la obligación de incorporar simuladores móviles en las primeras fases del desarrollo front-end.
+          p.mb-0 En un contexto práctico de desarrollo web, si la retrospectiva identifica que la interfaz gráfica presenta múltiples defectos de responsividad en dispositivos móviles, detectados mediante pruebas de caja negra, el plan de mejora establecería la obligación de incorporar simuladores móviles en las primeras fases del desarrollo #[i front-end].
 
       .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
-        p.mb-0 El éxito de esta estrategia de optimización se mediría comprobando, en el siguiente ciclo de pruebas, si la densidad de defectos relacionados con la interfaz móvil disminuyó significativamente. Así, el aprendiz comprende que el proceso de testing no es un obstáculo, sino el motor principal que impulsa la excelencia y la evolución técnica en la industria del software.
+        p.mb-0 El éxito de esta estrategia de optimización se mediría comprobando, en el siguiente ciclo de pruebas, si la densidad de defectos relacionados con la interfaz móvil disminuyó significativamente. Así, el aprendiz comprende que el proceso de #[i testing] no es un obstáculo, sino el motor principal que impulsa la excelencia y la evolución técnica en la industria del #[i software].
       
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')

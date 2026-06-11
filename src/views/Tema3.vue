@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
-          p.mb-3 La gestión de incidentes y la documentación de pruebas permiten transformar los resultados de la ejecución en información útil para el equipo de desarrollo, los líderes del proyecto y las partes interesadas. Cuando una prueba falla, no basta con indicar que existe un error; es necesario registrar el incidente con precisión, explicar cómo reproducirlo, documentar la evidencia y consolidar los resultados para facilitar la toma de decisiones sobre la calidad del software.
+          p.mb-3 La gestión de incidentes y la documentación de pruebas permiten transformar los resultados de la ejecución en información útil para el equipo de desarrollo, los líderes del proyecto y las partes interesadas. Cuando una prueba falla, no basta con indicar que existe un error; es necesario registrar el incidente con precisión, explicar cómo reproducirlo, documentar la evidencia y consolidar los resultados para facilitar la toma de decisiones sobre la calidad del #[i software].
           p.mb-0 Este proceso fortalece la comunicación técnica entre quienes evalúan el sistema y quienes realizan las correcciones. Además, permite identificar patrones de fallas, analizar la eficiencia del proceso de pruebas y presentar una visión clara del estado real del producto tecnológico.
       
       
@@ -65,7 +65,7 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-7
-          p.mb-4 Cuando una prueba se registra como fallida, el proceso natural es la creación de un reporte de incidente, comúnmente conocido en el ámbito informático como bug. Reportar un incidente no consiste simplemente en notificar que algo se ha roto; es un proceso formal de documentación que exige precisión técnica y claridad descriptiva.
+          p.mb-4 Cuando una prueba se registra como fallida, el proceso natural es la creación de un reporte de incidente, comúnmente conocido en el ámbito informático como #[i bug]. Reportar un incidente no consiste simplemente en notificar que algo se ha roto; es un proceso formal de documentación que exige precisión técnica y claridad descriptiva.
           .cajon.color-primario.px-5.py-4.mb-0
             p.mb-0 La calidad del reporte de un defecto impacta directamente en la velocidad con la que el equipo de desarrollo podrá solucionarlo. Por esta razón, esta competencia se convierte en un pilar importante dentro del aseguramiento de la calidad, ya que permite comunicar el problema de forma comprensible, reproducible y útil para su corrección.
         .col-sm-12.col-lg-5.d-none.d-lg-block
@@ -89,7 +89,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/4.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
-          p.mb-3 El concepto central en la gestión de incidentes es el ciclo de vida del defecto, el cual describe los diferentes estados por los que atraviesa un error desde el momento en que es descubierto hasta que es solucionado y cerrado definitivamente. En un entorno profesional o formativo simulado, este flujo de trabajo organiza la comunicación entre el evaluador, también llamado tester, y el programador o desarrollador.
+          p.mb-3 El concepto central en la gestión de incidentes es el ciclo de vida del defecto, el cual describe los diferentes estados por los que atraviesa un error desde el momento en que es descubierto hasta que es solucionado y cerrado definitivamente. En un entorno profesional o formativo simulado, este flujo de trabajo organiza la comunicación entre el evaluador, también llamado #[i tester], y el programador o desarrollador.
           p.mb-0 Un ciclo de vida estándar inicia cuando el incidente es reportado con el estado “Nuevo”. Posteriormente, un líder técnico lo revisa y, si es válido, lo pasa al estado “Asignado”, derivándolo al desarrollador responsable. Mientras el programador trabaja en la solución, el estado cambia a “En progreso”. Una vez corregido el código, el defecto se marca como “Resuelto” o “Listo para prueba”.
 
       .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
@@ -209,7 +209,7 @@
         h2 3.2 Informes de resumen y métricas de calidad
       
       img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t3/19.png', alt='')  
-      p.mb-3(data-aos="fade-right") A medida que finaliza un ciclo o nivel de pruebas, toda la información fragmentada, como casos exitosos, casos fallidos, métricas de cobertura y reportes de incidentes, debe ser consolidada para ofrecer una visión panorámica de la calidad del producto. La documentación integral es el mecanismo a través del cual el equipo de calidad comunica el estado real del software a las partes interesadas, conocidas como stakeholders, tales como gerentes de proyecto, clientes o, en el contexto formativo, instructores.
+      p.mb-3(data-aos="fade-right") A medida que finaliza un ciclo o nivel de pruebas, toda la información fragmentada, como casos exitosos, casos fallidos, métricas de cobertura y reportes de incidentes, debe ser consolidada para ofrecer una visión panorámica de la calidad del producto. La documentación integral es el mecanismo a través del cual el equipo de calidad comunica el estado real del #[i software] a las partes interesadas, conocidas como #[i stakeholders], tales como gerentes de proyecto, clientes o, en el contexto formativo, instructores.
       p.mb-5(data-aos="fade-right") El informe de resumen de pruebas es un documento formal que compila los resultados de todo el esfuerzo de aseguramiento de calidad. Este artefacto no debe ser una lista interminable de datos técnicos, sino un resumen ejecutivo diseñado para facilitar la toma de decisiones.
 
 
@@ -244,8 +244,8 @@
           .bg-color-1.py-4.px-5.mb-4
             p.mb-3 Junto con el resumen narrativo, la documentación integral debe incluir una sección cuantitativa robusta. La consolidación de métricas de calidad agrupa indicadores clave de rendimiento, conocidos como KPIs, relacionados con el proceso de pruebas.
 
-            p.mb-0 Algunas de las métricas más relevantes incluyen la densidad de defectos, entendida como el número de errores encontrados por cada mil líneas de código o por módulo funcional; el tiempo promedio de resolución de incidentes; y la tasa de defectos rechazados, es decir, reportes creados por el tester que resultaron no ser errores reales.
-          p.mb-3 El análisis de estas métricas permite evaluar no solo la calidad del software, sino también la eficiencia del propio proceso de pruebas. Si la tasa de defectos rechazados es muy alta, puede sugerir que el equipo de pruebas no comprende adecuadamente los requerimientos funcionales. Si el tiempo de resolución es excesivamente largo, puede indicar falta de recursos o de pericia técnica en el equipo de desarrollo.
+            p.mb-0 Algunas de las métricas más relevantes incluyen la densidad de defectos, entendida como el número de errores encontrados por cada mil líneas de código o por módulo funcional; el tiempo promedio de resolución de incidentes; y la tasa de defectos rechazados, es decir, reportes creados por el #[i tester] que resultaron no ser errores reales.
+          p.mb-3 El análisis de estas métricas permite evaluar no solo la calidad del #[i software], sino también la eficiencia del propio proceso de pruebas. Si la tasa de defectos rechazados es muy alta, puede sugerir que el equipo de pruebas no comprende adecuadamente los requerimientos funcionales. Si el tiempo de resolución es excesivamente largo, puede indicar falta de recursos o de pericia técnica en el equipo de desarrollo.
           p.mb-0 Aprender a interpretar estos datos dota al aprendiz de herramientas para liderar procesos de calidad basados en evidencia empírica. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/21.png', alt='')

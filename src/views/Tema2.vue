@@ -14,7 +14,7 @@
           .p-4.text-white
             img.wcus-1.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/2.svg', alt='')
             p.mb-4 La ejecución de pruebas, sean estáticas o dinámicas, carece de valor si sus hallazgos no se gestionan de manera sistemática. La transición entre la fase operativa de evaluación y la fase analítica de mejora marca la diferencia entre un equipo que simplemente encuentra errores y uno que asegura la calidad integral del producto.
-            p.mb-0 Este apartado se orienta a establecer planes de mejora basados en la evidencia empírica obtenida durante las pruebas. Para lograrlo, el aprendiz debe dominar procesos como el registro documental, el análisis de cobertura, la gestión de evidencias y la interpretación de resultados. La calidad de un software no se mide únicamente por la ausencia de fallas en su lanzamiento, sino por la rigurosidad con la que se documentaron, analizaron y resolvieron los problemas durante su construcción.
+            p.mb-0 Este apartado se orienta a establecer planes de mejora basados en la evidencia empírica obtenida durante las pruebas. Para lograrlo, el aprendiz debe dominar procesos como el registro documental, el análisis de cobertura, la gestión de evidencias y la interpretación de resultados. La calidad de un #[i software] no se mide únicamente por la ausencia de fallas en su lanzamiento, sino por la rigurosidad con la que se documentaron, analizaron y resolvieron los problemas durante su construcción.
       
       
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
@@ -69,7 +69,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/7.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
-          p.mb-3 Cuando ambas variables coinciden, el hallazgo se registra como exitoso, es decir, successful o pass. Cuando existe una desviación, por mínima que sea, se registra como fallido, es decir, fail. Esta categorización es fundamental para establecer el estado de salud del proyecto tecnológico en un momento determinado.
+          p.mb-3 Cuando ambas variables coinciden, el hallazgo se registra como exitoso, es decir, #[i successful] o #[i pass]. Cuando existe una desviación, por mínima que sea, se registra como fallido, es decir, #[i fail]. Esta categorización es fundamental para establecer el estado de salud del proyecto tecnológico en un momento determinado.
           p.mb-0 Desde una perspectiva pedagógica, el registro de hallazgos enseña el valor de la objetividad y la precisión. No basta con afirmar que un formulario “no funciona”; es necesario documentar en qué condiciones específicas se produjo la falla. El registro debe incluir la fecha y hora de la ejecución, el entorno de pruebas utilizado, por ejemplo, navegador, sistema operativo o versión del dispositivo móvil, los datos de entrada empleados y la salida real generada por el sistema.
       
       p.mb-5(data-aos="fade-right") Esta información constituye la materia prima sobre la cual los desarrolladores trabajarán posteriormente para aplicar las correcciones necesarias.
@@ -81,7 +81,7 @@
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-brown")(data-aos="fade-right")
         .row.justify-content-center(titulo="Estado de la prueba")
           .col-sm-12.col-lg-6
-            p.mb-0 Indica si el caso de prueba fue exitoso, successful o pass, o si fue fallido, fail, según la comparación entre el resultado esperado y el resultado obtenido.
+            p.mb-0 Indica si el caso de prueba fue exitoso, #[i successful] o #[i pass], o si fue fallido, #[i fail], según la comparación entre el resultado esperado y el resultado obtenido.
           .col-sm-12.col-lg-6.d-none.d-lg-block
             img(src='@/assets/curso/temas/t2/8.png')
         .row.justify-content-center(titulo="Condiciones de ejecución")
@@ -107,14 +107,14 @@
         .col-sm-12.col-lg-9
           img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/13.svg', alt='')
           .bg-color-1.p-4
-            p.mb-3 La trazabilidad es el principio que permite vincular cada prueba ejecutada con un requerimiento de negocio o funcional específico. Para garantizar esta conexión, en la industria tecnológica se emplea la Matriz de Trazabilidad de Requerimientos, conocida como RTM, por sus siglas en inglés. La comprensión de este instrumento es vital, ya que permite visualizar cómo una necesidad del cliente se transforma en una característica del software y, a su vez, cómo esa característica es validada por uno o varios casos de prueba.
+            p.mb-3 La trazabilidad es el principio que permite vincular cada prueba ejecutada con un requerimiento de negocio o funcional específico. Para garantizar esta conexión, en la industria tecnológica se emplea la Matriz de Trazabilidad de Requerimientos, conocida como RTM, por sus siglas en inglés. La comprensión de este instrumento es vital, ya que permite visualizar cómo una necesidad del cliente se transforma en una característica del #[i software] y, a su vez, cómo esa característica es validada por uno o varios casos de prueba.
             p.mb-0 En la práctica formativa, la trazabilidad evita que el equipo de desarrollo escriba pruebas innecesarias o que olvide evaluar funcionalidades críticas. Por ejemplo, en el desarrollo de un portal de educación virtual, un requerimiento puede estipular que “el sistema debe permitir la carga de archivos en formato PDF de hasta 5 MB”. La matriz de trazabilidad conectará este requerimiento con un caso de prueba de caja negra diseñado para validar precisamente esa restricción. Si el caso de prueba falla, la trazabilidad permite identificar inmediatamente qué requerimiento del cliente se encuentra en riesgo de incumplimiento.
 
 
       p.mb-5(data-aos="fade-right") Un hallazgo registrado sin evidencia carece de validez técnica. La estructuración de la evidencia implica recolectar artefactos digitales que demuestren de forma irrefutable el resultado de la prueba. Para los casos exitosos, la evidencia asegura que la funcionalidad fue validada correctamente antes de la entrega; para los casos fallidos, la evidencia es crucial para que el desarrollador pueda reproducir y comprender el error.
 
       .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
-        p.mb-0 Las formas más comunes de estructurar esta evidencia incluyen capturas de pantalla con anotaciones, grabaciones de video de la interacción con la interfaz, archivos de registro o logs generados por el servidor, y exportaciones del estado de la base de datos antes y después de la transacción. Pedagógicamente, la evidencia debe entenderse como un instrumento de comunicación técnica, no como una herramienta para penalizar al programador. Una evidencia bien estructurada elimina la ambigüedad, reduce los tiempos de depuración y fomenta un ambiente de trabajo colaborativo fundamentado en datos objetivos.
+        p.mb-0 Las formas más comunes de estructurar esta evidencia incluyen capturas de pantalla con anotaciones, grabaciones de video de la interacción con la interfaz, archivos de registro o #[i logs] generados por el servidor, y exportaciones del estado de la base de datos antes y después de la transacción. Pedagógicamente, la evidencia debe entenderse como un instrumento de comunicación técnica, no como una herramienta para penalizar al programador. Una evidencia bien estructurada elimina la ambigüedad, reduce los tiempos de depuración y fomenta un ambiente de trabajo colaborativo fundamentado en datos objetivos.
       
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')
@@ -168,7 +168,7 @@
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/temas/t2/19.svg', alt='')
-            .col-sm-12.col-lg-10 Determinar cuándo se ha probado lo suficiente es uno de los dilemas más recurrentes en el desarrollo de software. Es matemáticamente imposible ejecutar un número infinito de pruebas para cubrir todas las combinaciones posibles de datos e interacciones en un sistema complejo. Frente a esta limitación, surge el concepto de cobertura de pruebas, el cual permite cuantificar el alcance y la profundidad del esfuerzo de evaluación realizado.
+            .col-sm-12.col-lg-10 Determinar cuándo se ha probado lo suficiente es uno de los dilemas más recurrentes en el desarrollo de #[i software]. Es matemáticamente imposible ejecutar un número infinito de pruebas para cubrir todas las combinaciones posibles de datos e interacciones en un sistema complejo. Frente a esta limitación, surge el concepto de cobertura de pruebas, el cual permite cuantificar el alcance y la profundidad del esfuerzo de evaluación realizado.
           p.mb-0 Cuantificar la cobertura es esencial para tomar decisiones informadas sobre la liberación de un producto al mercado o su paso a la siguiente fase de desarrollo.
       p.mb-5(data-aos="fade-right") Las métricas de cobertura proporcionan un indicador numérico que refleja el progreso de la fase de aseguramiento de calidad. Existen diferentes niveles para medir esta cobertura. Por un lado, la cobertura de requerimientos calcula el porcentaje de funcionalidades solicitadas por el cliente que ya cuentan con casos de prueba diseñados y ejecutados. Por otro lado, la cobertura de código, más ligada a las pruebas de caja blanca y unitarias, calcula el porcentaje de líneas de código fuente que han sido ejecutadas por las pruebas automáticas.    
 
@@ -191,7 +191,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/20.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column.justify-content-center.br-2
-          p.mb-3 El análisis de impacto es el proceso analítico que sigue a la cuantificación matemática de la cobertura. No todas las funcionalidades de un software poseen el mismo nivel de criticidad. Por tanto, una cobertura del 90 % podría parecer excelente, pero si el 10 % restante corresponde al módulo de pagos electrónicos de una tienda virtual, el riesgo para el negocio es inaceptablemente alto.
+          p.mb-3 El análisis de impacto es el proceso analítico que sigue a la cuantificación matemática de la cobertura. No todas las funcionalidades de un #[i software] poseen el mismo nivel de criticidad. Por tanto, una cobertura del 90 % podría parecer excelente, pero si el 10 % restante corresponde al módulo de pagos electrónicos de una tienda virtual, el riesgo para el negocio es inaceptablemente alto.
           p.mb-0 Con este análisis, la cobertura deja de interpretarse solo como un porcentaje y empieza a leerse en relación con la importancia estratégica de cada componente. Por esta razón, no basta con afirmar que se ha cubierto una alta proporción del sistema; también es necesario identificar qué funcionalidades quedaron sin evaluar, qué nivel de riesgo representan y qué consecuencias podrían generar para el usuario, el negocio o la operación del sistema.
 
       p.mb-3(data-aos="fade-right") El aprendiz debe aprender a ponderar las métricas de cobertura con base en la importancia estratégica de los componentes del sistema. Este análisis de completitud orienta los esfuerzos del equipo hacia las áreas de mayor riesgo. Si durante la cuantificación se identifica que un módulo crítico carece de casos de prueba, el líder de calidad debe ordenar el diseño y ejecución inmediata de evaluaciones para esa sección.

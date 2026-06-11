@@ -230,7 +230,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Secuencia básica de una prueba unitaria
 
-      .bg-full-width(data-aos="fade-right")
+      .bg-full-width.bg-fondo-1(data-aos="fade-right")
         .p-full-width 
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-8

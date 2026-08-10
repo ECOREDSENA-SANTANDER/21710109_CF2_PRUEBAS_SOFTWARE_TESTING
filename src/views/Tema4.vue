@@ -24,13 +24,13 @@
         .col-sm-12.col-lg-11.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/t4/2.svg", alt="alt").img250
+              img(src="@/assets/curso/temas/t4/2.svg").img250
           
           .crd.crd--avatarHorizontal.crd--first.crd--bg-first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/3.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/3.svg").img100
               .col
                 h5 Analizar resultados
                 p Los registros, métricas e incidentes permiten identificar qué ocurrió durante el proceso de pruebas.
@@ -39,7 +39,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/4.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/4.svg").img100
               .col
                 h5 Reconocer causas
                 p El análisis permite diferenciar errores del código, fallas de comunicación, retrasos o problemas del proceso.
@@ -48,7 +48,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/5.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/5.svg").img100
               .col
                 h5 Socializar aprendizajes
                 p Las lecciones aprendidas deben compartirse para fortalecer el conocimiento del equipo de desarrollo.
@@ -57,7 +57,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/6.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/6.svg").img100
               .col
                 h5 Formular mejoras
                 p Los hallazgos se convierten en acciones correctivas, preventivas y estrategias de optimización continua.
@@ -75,17 +75,17 @@
         h2 4.1 Lecciones aprendidas, retrospectiva y socialización del conocimiento
       
       
-      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t4/7.png', alt='')  
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t4/7.png')  
       p.mb-3(data-aos="fade-right") El ciclo de desarrollo y pruebas de #[i software] es, por naturaleza, iterativo y empírico. Una vez finalizada la documentación formal de los resultados, el equipo debe llevar a cabo un ejercicio de introspección para evaluar su propio desempeño. Este análisis, a menudo enmarcado en ceremonias ágiles como la retrospectiva, es crucial para cultivar una mentalidad de mejora continua.
       p.mb-5(data-aos="fade-right") Identificar qué funcionó bien y qué falló en el proceso de evaluación asegura que los errores metodológicos no se repitan en futuras iteraciones o proyectos. Por esta razón, las lecciones aprendidas no deben asumirse como un cierre administrativo, sino como una oportunidad para mejorar la forma en que el equipo diseña, ejecuta, documenta y analiza las pruebas.
       
       
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/8.png', alt='')
+          img(src='@/assets/curso/temas/t4/8.png')
         .col-sm-12.col-lg-9
           .bg-color-1.p-4
-            img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t4/9.svg', alt='')
+            img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t4/9.svg')
             p.mb-3 El primer paso de la retrospectiva consiste en realizar un análisis de causa raíz sobre las fallas procedimentales. Es fundamental diferenciar esto de los errores del código; aquí se evalúan los errores del equipo humano. Por ejemplo, si se descubre un defecto crítico de caja negra un día antes del lanzamiento oficial, es necesario analizar si el diseño de los casos de prueba comenzó demasiado tarde o si el entorno de pruebas no estaba configurado a tiempo.
             p.mb-0 Mediante técnicas de análisis como los “5 Porqués” o el Diagrama de Ishikawa, el aprendiz aprende a profundizar más allá de los síntomas superficiales para encontrar el origen de los problemas organizacionales. Por ejemplo, si un equipo detecta reiteradamente que sus casos de prueba están desactualizados frente a la versión final del #[i software], la lección aprendida podría indicar una falla de comunicación entre los analistas de requerimientos y el equipo de aseguramiento de calidad.
       
@@ -180,7 +180,7 @@
             p.mb-0 Por otro lado, las acciones preventivas son proactivas; buscan eliminar la causa de un problema potencial antes de que ocurra. Siguiendo el mismo ejemplo, la acción preventiva a mediano plazo sería implementar un plan de capacitación en herramientas de automatización de pruebas para el equipo, de modo que en el futuro los ciclos de regresión se ejecuten de forma programática y rápida.
           p.mb-0 La habilidad para formular ambas tipologías de acciones demuestra una comprensión madura de la gestión de calidad, equilibrando la resolución de crisis inmediatas con la planificación estratégica.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/19.png', alt='')
+          img(src='@/assets/curso/temas/t4/19.png')
 
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')
@@ -188,7 +188,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/20.png', alt='')
+          img(src='@/assets/curso/temas/t4/20.png')
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
             .tarjeta.bg-color-3.p-4(titulo="Acciones correctivas")
@@ -204,11 +204,11 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/21.png', alt='')
+          img(src='@/assets/curso/temas/t4/21.png')
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/10.svg', alt='')
+              img(src='@/assets/curso/temas/t3/10.svg')
             .col-sm-12.col-lg-10 
               p.mb-0 La formulación de un plan de mejora no es un evento aislado, sino parte del ciclo iterativo de Planificar, Hacer, Verificar y Actuar, conocido como Ciclo de Deming o PDCA. Las estrategias de optimización continúan integradas en los planes de mejora deben ser medibles mediante indicadores de seguimiento.
 

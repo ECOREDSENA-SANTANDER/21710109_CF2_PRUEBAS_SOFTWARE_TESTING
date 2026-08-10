@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual titulado Implementación de pruebas y mejora del software. El esquema presenta cómo la implementación de pruebas permite asegurar la calidad del producto digital. Se organiza en tres bloques principales: implementación de pruebas, gestión de resultados e incidentes y documentación. En la implementación de pruebas se incluyen pruebas estáticas, de caja negra, de caja blanca y unitarias. En la gestión de resultados se relacionan hallazgos, estados pass y fail, evidencias, trazabilidad, cobertura e impacto. En incidentes y documentación se integran bug, ticket, ciclo del defecto, informe resumen y métricas de calidad. Estos elementos se conectan con la mejora continua, que incluye lecciones aprendidas, retrospectiva, causa raíz, acciones correctivas, preventivas y PDCA. El mapa concluye con el resultado final esperado: software confiable, seguro, usable y alineado con las necesidades del usuario y del proyecto.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

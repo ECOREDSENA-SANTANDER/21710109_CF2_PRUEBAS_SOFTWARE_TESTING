@@ -9,10 +9,10 @@
       
       .row.justify-content-center.mb-5.bg-color-primario(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block.mx-0.px-0
-          img(src='@/assets/curso/temas/t2/1.png', alt='')
+          img(src='@/assets/curso/temas/t2/1.png')
         .col-sm-12.col-lg-7.mx-0.px-0
           .p-4.text-white
-            img.wcus-1.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/2.svg', alt='')
+            img.wcus-1.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/2.svg')
             p.mb-4 La ejecución de pruebas, sean estáticas o dinámicas, carece de valor si sus hallazgos no se gestionan de manera sistemática. La transición entre la fase operativa de evaluación y la fase analítica de mejora marca la diferencia entre un equipo que simplemente encuentra errores y uno que asegura la calidad integral del producto.
             p.mb-0 Este apartado se orienta a establecer planes de mejora basados en la evidencia empírica obtenida durante las pruebas. Para lograrlo, el aprendiz debe dominar procesos como el registro documental, el análisis de cobertura, la gestión de evidencias y la interpretación de resultados. La calidad de un #[i software] no se mide únicamente por la ausencia de fallas en su lanzamiento, sino por la rigurosidad con la que se documentaron, analizaron y resolvieron los problemas durante su construcción.
       
@@ -103,9 +103,9 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/12.png', alt='')
+          img(src='@/assets/curso/temas/t2/12.png')
         .col-sm-12.col-lg-9
-          img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/13.svg', alt='')
+          img.wcus-1.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/13.svg')
           .bg-color-1.p-4
             p.mb-3 La trazabilidad es el principio que permite vincular cada prueba ejecutada con un requerimiento de negocio o funcional específico. Para garantizar esta conexión, en la industria tecnológica se emplea la Matriz de Trazabilidad de Requerimientos, conocida como RTM, por sus siglas en inglés. La comprensión de este instrumento es vital, ya que permite visualizar cómo una necesidad del cliente se transforma en una característica del #[i software] y, a su vez, cómo esa característica es validada por uno o varios casos de prueba.
             p.mb-0 En la práctica formativa, la trazabilidad evita que el equipo de desarrollo escriba pruebas innecesarias o que olvide evaluar funcionalidades críticas. Por ejemplo, en el desarrollo de un portal de educación virtual, un requerimiento puede estipular que “el sistema debe permitir la carga de archivos en formato PDF de hasta 5 MB”. La matriz de trazabilidad conectará este requerimiento con un caso de prueba de caja negra diseñado para validar precisamente esa restricción. Si el caso de prueba falla, la trazabilidad permite identificar inmediatamente qué requerimiento del cliente se encuentra en riesgo de incumplimiento.
@@ -163,11 +163,11 @@
       
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/18.png', alt='')
+          img(src='@/assets/curso/temas/t2/18.png')
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t2/19.svg', alt='')
+              img(src='@/assets/curso/temas/t2/19.svg')
             .col-sm-12.col-lg-10 Determinar cuándo se ha probado lo suficiente es uno de los dilemas más recurrentes en el desarrollo de #[i software]. Es matemáticamente imposible ejecutar un número infinito de pruebas para cubrir todas las combinaciones posibles de datos e interacciones en un sistema complejo. Frente a esta limitación, surge el concepto de cobertura de pruebas, el cual permite cuantificar el alcance y la profundidad del esfuerzo de evaluación realizado.
           p.mb-0 Cuantificar la cobertura es esencial para tomar decisiones informadas sobre la liberación de un producto al mercado o su paso a la siguiente fase de desarrollo.
       p.mb-5(data-aos="fade-right") Las métricas de cobertura proporcionan un indicador numérico que refleja el progreso de la fase de aseguramiento de calidad. Existen diferentes niveles para medir esta cobertura. Por un lado, la cobertura de requerimientos calcula el porcentaje de funcionalidades solicitadas por el cliente que ya cuentan con casos de prueba diseñados y ejecutados. Por otro lado, la cobertura de código, más ligada a las pruebas de caja blanca y unitarias, calcula el porcentaje de líneas de código fuente que han sido ejecutadas por las pruebas automáticas.    

@@ -69,7 +69,7 @@
           .cajon.color-primario.px-5.py-4.mb-0
             p.mb-0 La calidad del reporte de un defecto impacta directamente en la velocidad con la que el equipo de desarrollo podrá solucionarlo. Por esta razón, esta competencia se convierte en un pilar importante dentro del aseguramiento de la calidad, ya que permite comunicar el problema de forma comprensible, reproducible y útil para su corrección.
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/2.png', alt='')
+          img(src='@/assets/curso/temas/t3/2.png')
       
       p.mb-5(data-aos="fade-right") Antes de continuar con el ciclo de vida del defecto, se presenta el pódcast “Cuando una prueba falla: reportar, corregir y aprender”. Este recurso permite comprender, mediante una conversación aplicada, por qué una prueba fallida debe convertirse en información técnica clara, completa y reproducible. A través de un ejemplo relacionado con la carga de archivos PDF en una plataforma académica, se explica la importancia de documentar el incidente, registrar evidencias, diferenciar el resultado esperado del resultado real y facilitar la comunicación entre el evaluador, el desarrollador y el líder técnico.
       
@@ -139,12 +139,12 @@
        
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/11.png', alt='')
+          img(src='@/assets/curso/temas/t3/11.png')
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/10.svg', alt='')
-            .col-sm-12.col-lg-10 Para que el ciclo de vida fluya sin fricciones, el documento o ticket que describe el incidente debe estar estructurado meticulosamente. Un reporte ineficiente, que incluya frases vagas como “la pantalla se queda en blanco”, genera frustración y pérdida de tiempo. Por el contrario, un reporte bien elaborado actúa como un manual de instrucciones para reproducir la falla.
+              img(src='@/assets/curso/temas/t3/10.svg')
+            .col-sm-12.col-lg-10 Para que el ciclo de vida fluya sin fricciones, el documento o #[i ticket] que describe el incidente debe estar estructurado meticulosamente. Un reporte ineficiente, que incluya frases vagas como “la pantalla se queda en blanco”, genera frustración y pérdida de tiempo. Por el contrario, un reporte bien elaborado actúa como un manual de instrucciones para reproducir la falla.
           p.mb-0 Todo incidente debe contener un título descriptivo y conciso, la severidad del error, la prioridad, el entorno de ejecución donde ocurrió la falla y, especialmente, los pasos para reproducir el problema. Además, se debe contrastar de manera explícita el resultado esperado frente al resultado actual, adjuntando la evidencia estructurada previamente. Al dominar esta estructura, se facilita la resolución ágil de problemas y se demuestra profesionalismo en la comunicación técnica.
 
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
@@ -208,7 +208,7 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.2 Informes de resumen y métricas de calidad
       
-      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t3/19.png', alt='')  
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t3/19.png')  
       p.mb-3(data-aos="fade-right") A medida que finaliza un ciclo o nivel de pruebas, toda la información fragmentada, como casos exitosos, casos fallidos, métricas de cobertura y reportes de incidentes, debe ser consolidada para ofrecer una visión panorámica de la calidad del producto. La documentación integral es el mecanismo a través del cual el equipo de calidad comunica el estado real del #[i software] a las partes interesadas, conocidas como #[i stakeholders], tales como gerentes de proyecto, clientes o, en el contexto formativo, instructores.
       p.mb-5(data-aos="fade-right") El informe de resumen de pruebas es un documento formal que compila los resultados de todo el esfuerzo de aseguramiento de calidad. Este artefacto no debe ser una lista interminable de datos técnicos, sino un resumen ejecutivo diseñado para facilitar la toma de decisiones.
 
@@ -224,7 +224,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/20.png', alt='')
+          img(src='@/assets/curso/temas/t3/20.png')
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
             .tarjeta.bg-color-3.p-4(titulo="Componentes evaluados")
@@ -248,7 +248,7 @@
           p.mb-3 El análisis de estas métricas permite evaluar no solo la calidad del #[i software], sino también la eficiencia del propio proceso de pruebas. Si la tasa de defectos rechazados es muy alta, puede sugerir que el equipo de pruebas no comprende adecuadamente los requerimientos funcionales. Si el tiempo de resolución es excesivamente largo, puede indicar falta de recursos o de pericia técnica en el equipo de desarrollo.
           p.mb-0 Aprender a interpretar estos datos dota al aprendiz de herramientas para liderar procesos de calidad basados en evidencia empírica. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/21.png', alt='')
+          img(src='@/assets/curso/temas/t3/21.png')
   
 
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")

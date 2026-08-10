@@ -60,7 +60,7 @@
         h2 1.1 Pruebas estáticas y prevención temprana 
       
       
-      img.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/t1/6.png', alt='')(data-aos="fade-right")
+      img.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/t1/6.png')(data-aos="fade-right")
       p.mb-5(data-aos="fade-right") Las pruebas estáticas representan el primer filtro de calidad en cualquier proyecto de #[i software]. A diferencia de las pruebas dinámicas, que requieren la ejecución del código, las pruebas estáticas se enfocan en la revisión exhaustiva de los artefactos del proyecto antes de que el #[i software] sea compilado o ejecutado. Este enfoque preventivo se basa en la premisa de que corregir un error en la fase de requerimientos o diseño es significativamente más económico y requiere menos esfuerzo que solucionarlo cuando el sistema ya se encuentra en fase de producción.
       
       .row.justify-content-center.mb-5.align-items-end(data-aos="fade-right")
@@ -69,7 +69,7 @@
             p.mb-0 Comprender las pruebas estáticas implica reconocerlas como un ejercicio de lectura crítica y escrutinio analítico. En este caso, no se busca “romper” el sistema interactuando con él, sino examinar la documentación, los modelos de datos, las historias de usuario y el código fuente en busca de ambigüedades, inconsistencias, desviaciones de los estándares de codificación o lógica defectuosa. Existen diversas técnicas para llevar a cabo estas pruebas, entre las que destacan las revisiones informales, las inspecciones formales, las revisiones técnicas y el análisis estático de código mediante herramientas automatizadas que detectan vulnerabilidades de seguridad o malas prácticas de programación, conocidas como #[i code smells].
           p.mb-0 En un contexto de formación profesional, la aplicación de pruebas estáticas resulta vital para fomentar la disciplina y el trabajo colaborativo. Por ejemplo, puede pensarse en un equipo de aprendices del SENA que diseña un aplicativo web para la gestión de inventarios de una biblioteca. Antes de escribir la primera línea de código en HTML o #[i JavaScript], el equipo realiza una inspección formal del documento de requerimientos. Durante esta revisión, se detecta que el requerimiento “El sistema debe permitir préstamos rápidos” es ambiguo, ya que no define qué constituye “rápido” ni establece parámetros de tiempo o de interfaz. Al identificar y documentar este hallazgo mediante una prueba estática, el equipo corrige la especificación y evita desarrollar una funcionalidad que, posteriormente, no cumpliría con las expectativas del usuario final.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/7.png', alt='')
+          img(src='@/assets/curso/temas/t1/7.png')
       
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
         h5 Figura 1. 
@@ -104,7 +104,7 @@
             p.mb-4 Para ilustrar este concepto en un escenario aplicable, puede considerarse el desarrollo de una plataforma de comercio electrónico para artesanos locales. El sistema posee un campo de texto para ingresar la cantidad de productos a comprar, el cual, según los requerimientos, solo debe aceptar números enteros entre 1 y 50. Aplicando la técnica de análisis de valores límite en una prueba de caja negra, no se revisa si el código usa un ciclo #[i if] o un #[i switch]; en su lugar, se ejecutan casos de prueba ingresando los valores 0, como límite inferior inválido; 1, como límite inferior válido; 50, como límite superior válido; y 51, como límite superior inválido. Si al ingresar 51 el sistema permite la compra en lugar de arrojar un mensaje de error, la prueba se registra como fallida.
             p.mb-2 Este tipo de pruebas asegura que la interfaz interactúe correctamente, que los flujos de navegación sean lógicos y que las restricciones operativas se cumplan a cabalidad, validando así el valor real que el producto tecnológico entrega a la sociedad.
         .col-sm-12.col-lg-5.d-none.d-lg-block.mx-0.px-0
-          img(src='@/assets/curso/temas/t1/10.png', alt='')
+          img(src='@/assets/curso/temas/t1/10.png')
       
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/bg/1.svg')
@@ -112,7 +112,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/11.png', alt='')
+          img(src='@/assets/curso/temas/t1/11.png')
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
             .tarjeta.bg-color-3.p-4(titulo="Perspectiva externa")
@@ -131,7 +131,7 @@
             p.mb-3 Las pruebas de caja blanca, también llamadas pruebas estructurales, de caja de cristal o de caja transparente, se enfocan en la anatomía interna del #[i software]. Este enfoque requiere conocimiento profundo y detallado del código fuente, la arquitectura de la base de datos, los algoritmos y los flujos de control de la aplicación.
             p.mb-0 El objetivo principal de las pruebas de caja blanca es verificar la estructura interna del sistema, asegurando que todas las rutas de código posibles, las condiciones lógicas y los bucles operen de manera eficiente, segura y sin errores ocultos. A diferencia de las pruebas de caja negra, aquí no solo interesa comprobar qué resultado entrega el sistema, sino cómo llega a ese resultado.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/12.png', alt='')
+          img(src='@/assets/curso/temas/t1/12.png')
 
       .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
         p.mb-3 El proceso de realizar pruebas de caja blanca es altamente técnico y requiere bases sólidas en programación. Pedagógicamente, puede explicarse como la validación de la “tubería interna” de la aplicación. Mientras la caja negra verifica si sale agua limpia por el grifo, la caja blanca verifica que las tuberías no tengan fisuras, que las válvulas abran en el momento exacto y que no existan tramos inútiles, equivalentes al código muerto.
@@ -139,9 +139,9 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/13.png', alt='')
+          img(src='@/assets/curso/temas/t1/13.png')
         .col-sm-12.col-lg-1.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/14.svg', alt='')
+          img(src='@/assets/curso/temas/t1/14.svg')
         .col-sm-12.col-lg-6
             p.mb-0 Para comprender su aplicabilidad en la formación profesional, puede tomarse como ejemplo un sistema de información desarrollado por aprendices SENA que incluye un módulo de autenticación de usuarios, conocido como #[i login]. Al realizar pruebas de caja blanca sobre este módulo, se revisa directamente la función de validación escrita en lenguaje PHP o #[i Python]. Allí se analiza el bloque condicional que verifica si la contraseña coincide con el #[i hash] almacenado en la base de datos. También se diseña una prueba específica para forzar la ejecución de la cláusula #[i else] del código, es decir, el camino lógico que maneja el error de contraseña incorrecta, verificando además que no existan vulnerabilidades de inyección SQL en la consulta que interactúa con la base de datos.
 
@@ -152,7 +152,7 @@
       ImagenInfografica.color-acento-botones.mb-4.bg-color-4.p-5.d-none.d-md-block(data-aos="fade-right")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/t1/15.png', alt='')
+            img(src='@/assets/curso/temas/t1/15.png')
   
         .tarjeta.color-secundario.p-3(x="15%" y="38%" numero="1")
           .h5.mb-2 Diagrama de flujo de control
@@ -173,7 +173,7 @@
       ImagenInfografica.color-acento-botones.mb-4.bg-color-4.p-5.d-block.d-md-none(data-aos="fade-right")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/t1/22.png', alt='')
+            img(src='@/assets/curso/temas/t1/22.png')
   
         .tarjeta.color-secundario.p-3(x="18.5%" y="41%" numero="1")
           .h5.mb-2 Diagrama de flujo de control
@@ -222,7 +222,7 @@
 
             p.mb-2 A modo de ejemplo concreto, puede pensarse en el desarrollo de una función en #[i JavaScript] llamada calcularCostoEnvio(distancia, peso). Esta pequeña unidad de código debe retornar el valor del flete con base en dos parámetros matemáticos. Para realizar la prueba unitaria, se escribe un pequeño #[i script] de prueba utilizando el entorno #[i Jest], donde se afirma, mediante una validación o #[i assert], que, si la distancia es 10 km y el peso es 5 kg, la función debe retornar exactamente $15.000 COP. Si el código fuente tiene un error en la fórmula matemática, la prueba unitaria fallará de manera inmediata, localizando el error con precisión en esa función específica, sin necesidad de cargar la interfaz gráfica ni consultar bases de datos externas.
         .col-sm-12.col-lg-5.d-none.d-lg-block.mx-0.px-0
-          img(src='@/assets/curso/temas/t1/17.png', alt='')
+          img(src='@/assets/curso/temas/t1/17.png')
 
 
       p.mb-5(data-aos="fade-right") Al dominar las pruebas unitarias, el futuro profesional contribuye a que los cimientos técnicos de cualquier aplicativo sean robustos, escalables y confiables.
